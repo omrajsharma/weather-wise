@@ -1,0 +1,32 @@
+.weather-section {
+    margin-top: 50px;
+    padding: 10px;
+}
+.weather-card {
+    width: 100%;
+    min-height: 184px;
+    background: linear-gradient(90deg, #5936B4 0%, #362A84 103.55%);
+    border-radius: 20px;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.weather-temp-c {
+    font-weight: 400;
+    font-size: 64px;
+}
+.weather-info {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: #bbbbbb ;
+}
+.weather-place {
+    font-size: 22px;
+}
+.weather-avatar {
+    position: absolute;
+    top: -60px;
+    right: -15px;
+}
