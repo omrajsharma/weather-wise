@@ -11,11 +11,13 @@ function App() {
   
   return (
     <div className="App">
-      <Header />
-      <Search setWeatherDetails={setWeatherDetails} />
-      {
-        weatherDetails !== null ? <WeatherCard weatherDetails={weatherDetails} /> : null
-      }
+      <div className='app-container'>
+        <Header />
+        <Search setWeatherDetails={setWeatherDetails} />
+        {
+          weatherDetails !== null ? <WeatherCard weatherDetails={weatherDetails} /> : null
+        }
+      </div>
       <Footer />
     </div>
   );
