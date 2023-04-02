@@ -20,7 +20,7 @@ function Search({
         url: 'https://weatherapi-com.p.rapidapi.com/current.json',
         params: {q: search},
         headers: {
-          'X-RapidAPI-Key': 'b20d47f0d4msh3982d9642dd13c8p1e58f7jsn550814414a33',
+          'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
           'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
         }
       };
